@@ -194,6 +194,16 @@ body::before {
   top: 40px;
   right: 20px;
 }
+@media (max-width: 768px) {
+  .floating-photo {
+    float: none;
+    margin: 20px auto;
+    display: block;
+    position: static;
+    top: 0;
+    right: 0;
+  }
+}
 .header-tops {
   background-image: url("assets/img/background/background.png"); 
   background-size: cover; 
